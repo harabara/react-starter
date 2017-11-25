@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "description": "Get started with React!",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "keywords": ["neutrino", "react", "starter", "webpack"],
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build"
+  },
+  "author": "Hassan Ali <helfi92@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "neutrino": "^6.1.1",
+    "neutrino-middleware-styles-loader": "^0.0.6",
+    "neutrino-preset-react": "^6.1.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "lerna": "^2.5.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-hot-loader": "3.0.0-beta.7"
+  }
+}

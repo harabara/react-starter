@@ -1,0 +1,7 @@
+{
+  "lerna": "2.4.0",
+  "npmClient": "yarn",
+  "packages": ["apps/*", "shared"],
+  "hoist": true,
+  "version": "0.0.0"
+}
